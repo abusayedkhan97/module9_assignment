@@ -1,0 +1,247 @@
+/* body css */
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* Container css */
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-color: rgb(81, 81, 81);
+    padding: 8px;
+}
+/* logo */
+.logo img{
+    width: 100px;
+}
+
+/* menu */
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 20px;
+}
+
+.menu ul li a:hover{
+    color: #1ebbf0;
+    background: -webkit-linear-gradient(left, #1ebbf0 30%, #39dfaa 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/* header end */
+
+/* featured post */
+h2{
+    color: #f09c1e;
+    background: -webkit-linear-gradient(left, #089cac 40%, #dc00b4 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+.featured_post img{
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.post{
+    width: 60%;
+    margin: auto;
+    font-size: 20px;
+}
+h3{
+    display: inline-block;
+    margin-right: 10px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+/* blog_container */
+.blog_container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+/* sidebar */
+.sidebar{
+    width: 20%;
+}
+.search{
+    width: 100%;
+}
+.search input[type=text] {
+    width: 40%;
+    padding: 6px;
+    border: 2px solid rgb(109, 181, 0);
+    margin-top: 20px;
+    font-size: 17px;
+  }
+button{
+    padding: 6px;
+    border: 2px solid rgb(109, 181, 0);
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: rgb(151, 151, 151);
+}
+.categories ul{
+    padding: 0px;
+}
+.categories ul li a{
+    color: #ffffff;
+    background-color: #229dca;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.categories ul li{
+    display: inline-block;
+    padding: 6px;
+    list-style: none;
+}
+
+/* blog */
+.blog{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.blog h3{
+    font-size: 16px;
+    color: rgb(22, 145, 106);
+}
+.span{
+    margin-top: 10px;
+    color: #626d01;
+    font-weight: bold;
+}
+.blog p{
+    font-size: 16px;
+    color: rgb(0, 90, 60);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+.blog-item{
+    box-shadow: 2px 5px 30px rgba(93, 93, 93, 0.313);
+    width: 18%;
+    padding: 2%;
+    margin: 10px;
+    border-radius: 10px;
+}
+.blog-item a{
+    display: block;
+    color: white;
+    background-color: #089cac;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.blog-item img{
+    width: 100%;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+
+/* single post */
+.single-post{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.single-post h3{
+    text-align: center;
+    display: block;
+}
+.single-post img{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+.span{
+    text-align: center;
+}
+.single-post button{
+    text-align: center;
+    margin: auto;
+    display: block;
+    background-color: #089cac;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+
+/* form */
+.contact{
+    width: 30%;
+    margin:30px auto;
+    box-shadow: 5px 5px 30px #88888879;
+    padding: 20px;
+    border-radius: 10px;
+}
+.contact form label{
+    display: block;
+    color: #f09c1e;
+    background: -webkit-linear-gradient(left, #089cac 40%, #dc00b4 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.contact form input, textarea{
+    width: 94%;
+    border: 2px solid rgb(0, 139, 116);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 18px;
+}
+.contact form button{
+    width: 100%;
+    background-color: rgb(221, 210, 9);
+    padding: 13px;
+    border-radius: 30px;
+    color: #00024b;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact form button:hover{
+    background-color: rgb(194, 185, 9);
+    cursor: pointer;
+}
+
+/* send message */
+.send{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 30px;
+    color: #00bc32;
+    font-weight: bold;
+}
+.send span{
+    color: #006772;
+}
